@@ -14,4 +14,4 @@ Implementing member registration function using ajax (Java, JSP, MySQL 5.7.18, A
 - Controller : 사용자가 접근하려는 URL에 따라서 요청사항을 파악한 후 요청에 맞는 Model의 데이터를 의뢰하고 데이터를 View에 반영ㄹ해서 사용자에게 알려준다. 전반적인 제어 담당을 하는 역할이라 할 수 있다.  
 
 예를들어,  
-사용자가 웹사이트에 접속 -> Controller는 사용자가 요청한 웹페이지를 제공하기 위해 Model에서 데이터를 호출 -> Model은 데이터베이스나 파일과 같은 데이터 소스를 제어한 후 그 결과를 반환 -> Controller는 Model이 반환한 결과를 View에 반영 -> 데이터가 반영된 View는 사용자가 보여짐
+사용자가 웹사이트에 접속 -> Controller는 사용자가 요청한 웹페이지를 제공하기 위해 Model에서 데이터를 호출 -> Model은 데이터베이스나 파일과 같은 데이터 소스를 제어한 후 그 결과를 반환 -> Controller는 Model이 반환한 결과를 View에 반영 -> 데이터가 반영된 View는 사용자에게 보여짐
