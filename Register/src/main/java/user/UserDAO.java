@@ -30,7 +30,7 @@ public class UserDAO {
 			pstmt = conn.prepareStatement(SQL);
 			pstmt.setString(1, userID);
 			rs = pstmt.executeQuery();
-			if(rs.next()) {
+			if(rs.next() || userID.equals("")) {
 				return 0;		// Exist userID
 			} else {
 				return 1;		// Possible register userID
